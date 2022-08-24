@@ -19,7 +19,7 @@ Tests are present in the `spec` folder.
 
 ## Authors
 
-👤 **Sodiq**
+👤 **Assad Isah**
 
 - GitHub: [@nottherealalanturing](https://github.com/nottherealalanturing)
 - LinkedIn: [Assad Isah](https://linkedin.com/in/assadisah)
