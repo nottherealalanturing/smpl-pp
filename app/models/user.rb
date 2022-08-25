@@ -10,7 +10,7 @@ class User < ApplicationRecord
         uniqueness: true
 
     has_secure_password
-    validates :password, presence: true, length: { minimum: 6}
+    validates :password, presence: true, length: { minimum: 6}, allow_nil: true
 
     # Returns the hash digest of the given string.
     def User.digest(string)
@@ -26,6 +26,11 @@ class User < ApplicationRecord
     def remember
         self.remember_token = User.new_token
         update_attribute(:remember_token, User.digest(remember_token))
+        remember_digest
+    end
+
+    def session_token
+        remember_digest || remember
     end
 
     def authenticated?(remember_token)
