@@ -17,7 +17,7 @@ git clone  <https://github.com/deyemiobaa/smpl-pp.git>
 Tests are present in the `spec` folder.
 - run `rspec --format documentation spec/` to check all test cases
 
-## Authors
+## Author
 
 👤 **Assad Isah**
 
