@@ -13,6 +13,9 @@ gem 'importmap-rails'
 gem 'turbo-rails'
 gem 'stimulus-rails'
 gem 'jbuilder'
+gem "faker", "2.21.0"
+gem "will_paginate", "3.3.1"
+gem "bootstrap-will_paginate", "1.0.0"
 # gem "redis", "~> 4.0"
 
 # gem "kredis"
