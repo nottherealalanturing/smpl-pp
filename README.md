@@ -2,7 +2,7 @@
 
 # Smpl-pp
 
-> Sample App from Michael Hartl's The Ruby On Rails Tutorials
+> SampleApp from Michael Hartl's The Ruby On Rails Tutorials
 
 ## Getting Started
 
