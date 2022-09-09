@@ -8,7 +8,7 @@
 
 ### Setup
 ```
-git clone  <https://github.com/deyemiobaa/smpl-pp.git>
+git clone  <https://github.com/nottherealalanturing/smpl-pp.git>
 ```
 - run ```cd smpl-pp``` to enter the project folder
 - run `bundle install` to install dependencies
