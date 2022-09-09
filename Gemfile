@@ -5,7 +5,7 @@ ruby '3.1.2'
 
 gem 'rails', '~> 7.0.3', '>= 7.0.3.1'
 gem "active_storage_validations", "0.9.8"
-
+gem "image_processing", "1.12.2"
 gem 'bootstrap-sass', '3.4.1'
 gem 'sprockets-rails'
 gem 'sqlite3', '~> 1.4'
